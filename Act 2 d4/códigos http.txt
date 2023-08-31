@@ -1,0 +1,26 @@
+100
+Coninue. Ha recibido la primera petición y está esperando recibir más instrucciones del navegador.
+101
+Switching Protocols. Cuando el servidor acepta un cambio propuesto por el navegador (cambio de HTTP 1.0 a HTTP 1.1).
+102
+Processing. El servidor ha recibido la petición, pero no la ha completado.
+103
+Checkpoint. Para reanudar una petición que previamente fue perdida o cancelada.
+200
+OK. La solicitud ha tenido éxito.
+201
+Created. La petición se completó correctamente y se creó un nuevo recurso.
+204
+No Content. La petición se completó, pero la respuesta no muestra contenido.
+205
+Reset Content. Cuando la petición del usuario se completa, pero es necesario volver a cargar la página.
+206
+Partial Content. La petición se completa, pero solo se devuelve parte del contenido solicitado.
+207 
+Multi-Status. Se devuelve un archivo XML que contiene varias respuestas diferentes, en función de las peticiones realizadas.
+301
+Moved Permanently. El recurso solicitado se movió de forma permanente y el navegador es redirigido automáticamente a la nueva ubicación.
+302 – Moved Temporarily. El recurso solicitado se movió de forma temporal y el navegador es redirigido automáticamente a esa nueva ubicación.
+404
+Indica al usuario que el contenido al que está intentando acceder no se encuentra en el servidor o no está disponible.
+

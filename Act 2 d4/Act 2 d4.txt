@@ -1,0 +1,17 @@
+Act 2 d4
+
+En la imágen podemos observar...
+
+CMS - content manager system
+
+Cambio de Host - verifica si la página revisa la cabecera host.
+
+Virtual Host - en apache sólo puede haber una app, para solucionarlo puedes emular otra página web. Así puedes tener ambas páginas en el mismo puerto.
+
+Accept - lo que acepto, puede ser: text, html, xhtml, xml.
+
+gzip, deflate - todos los archivos
+
+Referer - permite evadir mecanismo de autenticación.
+
+Cookie - nos identifica como cliente/usuario; ayuda al connection:close; se genera cuando iniciamos sesión (log in), tiene vulnerabilidades a explotar 
