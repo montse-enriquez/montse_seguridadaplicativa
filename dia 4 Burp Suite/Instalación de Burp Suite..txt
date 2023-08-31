@@ -1,0 +1,29 @@
+Instalación de Burp Suite.
+
+Buscamos Burp Suite en google chrome e instalamos la versión adecuada.
+
+Imágen 1. En esta imágen podemos ver que se descargó exitosamente Burp Suite.
+
+Imágen 2. Despues buscamos en el navegador de google chrome "http://127.0.0.1:8080" donde nos salió una página para comprobar que teniamos instalado el Burp Suite edición comunitaria y ahí mismo obtuvimos el certificado el cual descargamos.
+
+Imágen 3. Nos situamos en la configuración de chrome.
+
+Imágen 4. Escribimos en la parte del buscador de configuración "certificados" y nos vamos a la opción de "Seguridad".
+
+Imágen 5. Abrimos la opción de "Gestionar los certificados del dispositivo" y nos desplazará una ventana como la que se muestra.
+
+Imágen 6. Aquí mismo examinaremos el archivo del certificado que descargamos anteriormente.
+
+Imágen 7. Continuamos seleccionando el almacén de certificados donde elegiremos la opción de "Entidades de certificación raíz de confianza" y aceptamos y finalizamos toda la operación.
+
+Imágen 8. Al finalizar dicha operación nos mostrará un mensaje que indica que "La importación se completó correctamente" y aceptamos.
+
+Imágen 9. Abriremos otra ventana en google chrome y buscamos "FoxyProxy" donde entraremos a la página de chrome web store para poder instalarlo y nos preguntará si queremos añadir extensión donde lo acpetaremos.
+
+Imágen 10. En ésta imágen se muestra el FoxyProxy ya abierto e instalado con extensión en chrome la cual necesitamos anclar.
+
+Imágen 11. En la extensión ingresaremos de nuevo "127.0.0.1:8080" y aceptaremos para finalizar esta operación la cual nos dará como resultado lo que nos muestra ésta imágen.
+
+Imágen 12. Abriremos otra ventana en google chrome donde buscaremos "unam" e ingresaremos a la primera página que nos aparece y veremos nuestras extensiones para elegir la opción "Use proxy 127.0.0.1:8080 for all URLs".
+
+Imágen 13. Por último regresaremos a nuestro Burp Suite donde habilitaremos la opción "Intercept is on" y veremos una request.
