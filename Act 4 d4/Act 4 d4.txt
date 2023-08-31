@@ -1,0 +1,10 @@
+Act 4 d4
+Laboratorio 
+
+Ingresamos a la página como se muestra en la primera imágen, posteriormente nos vamos a encender nuestro Burp Suite y la extensión de Foxy.
+
+Después vamos a nuestra página y seleccionamos alguna opción como "accesorios" como se muestra en la segunda imágen.
+
+Regresando a nuestro Burp veremos como se ve reflejado la información y en la primera línea tenemos el GET como se ilustra en la tercer imágen y agregamos despues de Accesories ' or 1=1 -- -' y apagamos nuestro Burp.
+
+Regresamos a nuestra página y podemos observar en la cuarta y última imágen que logramos finalizar con el ejercicio del laboratorio.
