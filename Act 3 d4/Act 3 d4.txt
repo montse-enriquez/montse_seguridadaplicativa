@@ -1,0 +1,6 @@
+Act 3 d4
+Laboratorio
+
+Ingresamos al log in de la página donde pondremos "admin" en la parte de e-mail y en password cualquier palabra, despues prendemos nustro Burp Suite en la parte de "Intercept is on" y regresamos a nuestra página donde nos mostrará nuestra primer imágen y para ver lo que nos lanzó en Burp podemos observar la segunda imágen.
+
+Regresamos a nuestro Burp Suite y en el Raw editaremos la parte de username como se muestra en nuestra tercera imágen y ponemos ' or 1=1 -- -' como se muestra en la cuarta imágen.
