@@ -1,0 +1,6 @@
+Actividad 5
+
+Target. mapeo de la página web
+FoxyProxy. para interceptar
+Intruder. se relaciona conla función de realizar ataques; para modificar
+Repeater. Es simple para manipular y editar manualmente mensajes http individuales.
